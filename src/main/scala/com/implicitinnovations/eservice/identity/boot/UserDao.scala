@@ -19,8 +19,7 @@ class UserDaoImpl(implicit inj: Injector) extends UserDao  {
   
   val URL = inject[String](identified by 'URL)
    val USERNAME = inject[String](identified by 'USERNAME)
-   val PASSWORD = inject[String](identified by 'PASSWORD)
-   // val url = "jdbc:postgresql://localhost:5432/satya?user=postgres&password=abiram06"
+   val PASSWORD = inject[String](identified by 'PASSWORD)  
     val db = Database.forURL(URL,user=USERNAME,password=PASSWORD,driver="org.postgresql.Driver")
 
 
