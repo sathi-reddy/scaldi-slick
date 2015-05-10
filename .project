@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>hello-slick</name>
+  <name>scaldi-slick</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>
